@@ -11,24 +11,73 @@
     
 </head>
 <body>
-
-    <nav class="navbar fixed-top navbar-dark" style="background-color: #323233; " >
-        <a class="navbar-brand" href="#">
-          <img src="../IMG/logo empresa.png" class="mw-100"  alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="./equipamiento.html">Equipamiento</a>
-            <a class="nav-link" href="./institucion.html">Institucion</a>
-            <a class="nav-link" href="./clientes.html">Clientes</a>
-            <a class="nav-link active" href="./contacto.html">Contacto</a>
-          </div>
+  <header>
+    <nav class="navbar sticky navbar-dark" style="background-color: #323233; " >
+      <a class="navbar-brand" href="#">
+        <img src="../IMG/logo empresa.png" class="mw-100"  alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="./equipamiento.html">Equipamiento</a>
+          <a class="nav-link" href="./institucion.html">Institucion</a>
+          <a class="nav-link" href="./clientes.html">Noticias</a>
+          <a class="nav-link active" href="./contacto.html">Contacto</a>
         </div>
-      </nav>
+      </div>
+    </nav>
+  </header>
+  
+
+    
+          <section class="main">
+            <div class="text-center">
+              <h2>Contacto</h2>
+            </div>
+      
+            <div class="container">
+                <div class="row mt-5" >
+                  <div class="col-md-6">
+                    <p>Portecelo 160, Villa Giardino, Cordoba, Argentina. </p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3418.112585072259!2d-64.50428468425652!3d-31.050965185779535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d849f852959c7%3A0xc89ad0d9a1325bde!2sPortecelo%20160%2C%20Villa%20Giardino%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1674659218068!5m2!1ses!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+                  <div class="col-md-6">
+                    <form>
+                      <div class="form-group">
+                        <label>Nombre</label>
+                        <input type="text" class="form-control" >
+                      </div>
+                      
+                      <div class="form-group">
+                        <label>Apellido</label>
+                        <input type="text" class="form-control" >
+                      </div>
+                      
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Mail</label>
+                        <input type="mail" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      </div>
+                      
+                      <div class="form-group">
+                        <label>Teléfono</label>
+                        <input type="text" class="form-control">
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                  </div>
+                 
+                </div>
+            </div>
+          </section>
+
+
     
       <footer class="mt-5">
         <p>todos los derechos reservados por copyright</p>

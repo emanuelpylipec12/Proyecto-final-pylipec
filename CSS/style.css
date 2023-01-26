@@ -29,3 +29,10 @@ footer{
 .equi2{
     margin-top: 50px;
 }
+main{
+    height:calc(100vh - 80px) ;
+    width: 100%;
+    background-color: transparent;
+    background-size: cover;
+
+}

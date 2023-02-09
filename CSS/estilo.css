@@ -14,4 +14,50 @@ footer {
   font-size: 25px;
   color: rgb(255, 255, 255);
   padding: 20px;
-}/*# sourceMappingURL=estilo.css.map */
+}
+footer{
+  background-color: #565657;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+.equi2{
+  margin-top: 50px;
+}
+main{
+  height:calc(100vh - 80px) ;
+  width: 100%;
+  background-color: transparent;
+  background-size: cover;
+}
+.imagen1{
+  height: 30vh;
+  object-fit: cover;
+}
+.redes{
+  min-width:1vh;
+  display:inline
+
+}
+.redes a{
+  text-decoration: none;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: aliceblue;
+  color: #323233;
+  border-radius: 50%;
+}
+.card{ 
+transition: transform 1s;
+box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+.card:hover{ 
+transform: scale(1.1) translateY(-40px);
+}
+/*# sourceMappingURL=estilo.css.map */
